@@ -10,7 +10,7 @@ Code Link ;- [Code](https://github.com/Abhisek753/Native_Weather_App)
 
 ## Demo
 
-Check out the [video demo]("https://drive.google.com/file/d/12IuyqMKwDOhnQnS4dwdTuC3C-iOCxlCm/view?usp=sharing") for a visual overview of the app.
+Check out the [video demo](https://drive.google.com/file/d/12IuyqMKwDOhnQnS4dwdTuC3C-iOCxlCm/view?usp=sharing) for a visual overview of the app.
 
 ## Screenshots
 
