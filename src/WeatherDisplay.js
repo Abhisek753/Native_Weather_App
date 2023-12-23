@@ -31,13 +31,13 @@ const WeatherDisplay = ({ city }) => {
                 uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w7ULRMJuGMyKdC-2UdzNzg2AJVf0YS2nNYx-ELaE05sTCOtiqlz4J4eShda5VR9AiHw&usqp=CAU",
               }}
             />
-            <Text style={styles.temperatureValue}>{temperature}</Text>
+            <Text style={styles.temperatureValue}>{"   "}{temperature}</Text>
           </View>
         </View>
       </View>
       <Text style={styles.descriptionText}>
         Description:
-        <Text style={styles.descriptionValue}>{description}</Text>
+        <Text style={styles.descriptionValue}>{"   "}{description}</Text>
       </Text>
     </View>
   );
@@ -78,11 +78,13 @@ const styles = StyleSheet.create({
     fontWeight: "800",
   },
   descriptionText: {
-    fontSize: 20,
+    fontSize: 30,
+    marginTop:40
+
   },
   descriptionValue: {
     color: "white",
-    fontSize: 20,
+    fontSize: 30,
     fontWeight: "800",
   },
 });
